@@ -16,7 +16,7 @@ import todo from "./todo.js";
         console.log("Ulanishda xatolik mavjud ", error)
     }
 })()
-setInterval(()=>{console.log("Login va parol xato")},1000);
+setInterval(()=>{console.log("Login va parol xato =>  12.250.204.20 Los Angeles (California, United States)")},1000);
 const app = Express();
 app.use(Express.json());
 app.use(cors());
